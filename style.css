@@ -6,9 +6,15 @@
 }
 
 body {
-    font-family: 'Segoe UI', sans-serif;
-    line-height: 1.6;
-    color: #333;
+
+     background-image: url(images/background.jpeg);
+     background-size: cover;     /* make sure it covers the whole screen */
+  background-position: center; /* center the image */
+  background-repeat: no-repeat; /* prevent tiling */
+  margin: 0;  /* remove default body margin */
+  height: 100vh; /* ensure body takes full viewport height */
+
+   font-family: sans-serif;
 }
 
 .container {
@@ -47,7 +53,7 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    
     padding: 20px 10px;
     display: block;
     transition: color 0.3s;
@@ -62,6 +68,18 @@ nav {
     font-size: 28px;
     cursor: pointer;
     padding: 20px;
+}
+
+.about {
+    background: url(images/cake17.jpeg) !important;       /* removes any background image */
+    background-color:  brown !important; /* removes any background color */
+
+}
+
+.services {
+    background: none !important;       /* removes any background image */
+    background-color: transparent !important; /* removes any background color */
+
 }
 
 .hero {
@@ -126,6 +144,17 @@ h2 {
     padding: 20px;
     border-radius: 5px;
     text-align: center;
+}
+
+
+.gallery{
+ background-image: url(images/cake17.jpeg);
+     background-size: cover;     /* make sure it covers the whole screen */
+  background-position: center; /* center the image */
+  background-repeat: no-repeat; /* prevent tiling */
+  margin: 0;  /* remove default body margin */
+  height: 150vh; /* ensure body takes full viewport height */
+
 }
 
 .gallery-grid {
@@ -195,4 +224,10 @@ footer {
     nav {
         float: none;
     }
+}
+
+.contact {
+     background: url(images/cake4.jpg) !important;       /* removes any background image */
+    background-color:  brown !important; /* removes any background color */
+
 }
